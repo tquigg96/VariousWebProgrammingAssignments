@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+<style>
+    form{
+        text-align: center;
+    }
+
+    form input:not(:empty){ 
+
+        border-color: blue;
+
+
+
+    }
+
+   
+</style>
+</head>
+<body>
+    <form>
+        <label for="fname">First Name:</label>
+        <br> 
+        <input type = "text" id = "fname" name="fname" > 
+        <br>
+
+        <label for="lname"> Last Name:</label>
+        <br>
+        <input type = "text" id="lname" name = "lname">
+        <br>
+
+        <label type = "city" id = "city" name = "city">City:</label>
+        <br>
+        <input type = "text" id = "city" name = "city">
+        <br>
+
+        <label type = "text" id = "state">State:</label>
+        <br>
+        <select name = "states" id ="state" name = "state">
+            <datalist>
+                <option>Ohio</option>
+                <option>California</option>
+                <option>Idaho</option>
+                <option>Idaho</option>
+                <option>Washington</option>
+            </datalist>
+
+        </select>
+        <br>
+
+        <label type = "zipCode" id = "zip">Zip Code:</label>
+        <br>
+        <input type = "text" id = "zip" name = "zip" placeholder="xxxxx">
+        <br>
+
+        <label type = "DoB" id = "DoB">Date of Birth:</label>
+        <br>
+        <input type= "text" id="DoB" name = "DoB" placeholder="mm/dd/yyyy">
+        <br>
+
+        <label type = "Number" id = "PhNum" >Phone Number:</label> 
+        <br>
+        <input type ="text" id = "phone" name = "PhNum" placeholder="x-xxx-xxx-xxxxx">
+        <br>
+
+        <label type = "creditC" id ="credit" style = "text-align: center;">Credit Card</label>
+        <br>
+        <input type = "text" id ="Num" pattern = "[0-9]" placeholder = "xxxx-xxxx-xxxx-xxxx" required>
+        <br>
+        <input type="text" id = "Month-Year" placeholder = "mm/yy">
+        <br>
+        <input type ="text" id = "security" placeholder="xxx">
+        <br><br>
+        
+
+    </form>
+</body>
+</html>

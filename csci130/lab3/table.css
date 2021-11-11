@@ -1,0 +1,8 @@
+td:hover{
+    background-color: red;
+}
+
+
+tr:hover td{
+    background-color: green;
+}

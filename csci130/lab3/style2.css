@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+
+
+
+body{
+    background-color:hsl(208, 100%, 28%);
+}
+
+
+/* header */
+
+#bullets{
+    
+    padding-right: 60px;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+li, a{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+.list li{
+    display:inline-block;
+    padding: 0 20px;
+}
+
+
+
+
+
+
+header{
+    background-color: #c51230;
+    text-align: center;
+}
+
+
+
+/* sections */
+
+.title{
+    text-align: center;
+    color: #004b8e;
+}
+
+.section1{
+    background-color: white;
+    margin: 6px;
+}
+
+
+
+/*updated nav bar */
+
+
+
+
+
+.container #bullets ul li{
+    background: red;
+    box-sizing: border-box;
+    font-family: montserrat;
+    align-items: center;
+    position: fixed;
+    float: right;
+    width: 100vw;
+    height: 70px;
+    align-items: center;
+   
+    
+
+}
+
+
+
+.logo, a:visited{
+    color: white;
+}
+
+.container #bullets ul{
+    float: right;
+    margin-right: 20px;
+
+}
+
+.container #bullets ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    
+}
+
+.container #bullets ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: upper-case;
+
+}
+
+a.logo, a:hover{
+    background: gray;
+    transition: .5s;
+}
+
+
+
+@media (max-width: 952 px){
+    label.logo{
+        font-size:30px;
+        padding-left:50px;
+    }
+}
+
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;   
+
+    }
+    ul{
+        position:fixed;
+        width: 100%;
+        height: 100vh;
+        background: red;
+        top: 80px;
+        left: 0;
+        text-align: center;
+
+
+    }
+
+    .container #bullets ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+
+    }
+
+    .container #bullets ul li a{
+        font-size: 20px;
+
+    }
+
+    a:hover, a.active{
+        background:none;
+        color: blue;
+
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+
+
+
+
+}
+
+

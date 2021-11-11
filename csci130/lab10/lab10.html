@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "lab10.js"></script>
+</head>
+<body>
+
+
+  
+<form>
+    <label for="number">How big do you want your array?</label>
+    <input type = "text" id="number">
+    <br>
+
+    <label for = "display">Array</label>
+    <div id = "display"></div>
+    <br>
+    <button type = "button" id = "create" onclick="populateArray(document.getElementById('number').value)">Create</button>
+    <br>
+    <button type ="button" id ="send" onclick = "packageSend()"> Send Array</button>
+    <br>
+    <button type="button" id = "ok">OK</button>
+    <br>
+    
+    <button type = "submit" id = "submit">Submit </button>
+    
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+   
+
+</head>
+<body>
+    <div class = "tvSchedule">
+        <p>TV Schedule</p>
+        <table id = "TV" style = "width:50%">
+            
+            <tr>
+                <th>Time</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+            </tr>
+            <tr> 
+                <td>8 pm</td>
+                <td class = "cell">Staring Contest</td>
+                <td class = "cell" colspan="2">Celebrity Hoedown</td>
+                
+            </tr>
+            
+                <tr> 
+                    <td>9 pm</td>
+                    <td class = "cell">Hardy,Har,Har</td>
+                    <td class = "cell">What's for Lunch?</td>
+                    
+                    <td  class = "cell" rowspan="2">movie of the Week</td>
+                    
+                </tr>
+                <tr> 
+                    <td>10 pm</td>
+                    <td class = "cell">Healers,Wheelers,Dealers</td>
+                    <td class = "cell" >It's a Crime</td>
+                </tr>
+            
+
+        
+        </table>
+
+<style>
+    /* table 2 */
+.tvSchedule p {
+    padding-left: 350px;
+}
+
+
+/*I don't know why the margin and border is not working on the tables */
+.tvSchedule {
+    background-color: #add8e6;
+    margin: 5px; 
+    border: 5px;
+    
+}
+
+#TV{
+    
+    background-color: lightblue;
+    border-color: blue;
+    border: 2px solid blue;
+    margin-right: 60px;
+
+}
+
+table{
+    border-collapse:collapse;
+    font-size:0.9e;
+    margin: 25px 0;
+
+    
+}
+tr {
+    text-align: center;
+}
+
+.cell{
+    border: 1px solid red;
+    
+
+}
+
+
+
+
+</style>
+</body>

@@ -1,0 +1,166 @@
+.landscape{
+
+    text-align:center;
+
+}
+
+.sky{
+    background-color: lightblue;
+    width: 800px;
+    height:400px;
+}
+
+.grass{
+    background-color: lightgreen;
+    width: 800px;
+    height:200px;
+}
+
+.cloud{
+    background-color:white;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 0px;
+    top: 50px;
+    border-radius:15px;
+    animation-name: cloud;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+   
+}
+.cloud a {
+    visibility: hidden;
+}
+.clouds:hover{
+    animation-name:hoverCloud;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+
+}
+
+
+@keyframes cloud{
+    from{
+      left: 0px;
+      top: 50px;
+    } 
+    to{
+      left: 800px;
+      top: 50px;
+    } 
+
+  }
+
+.cloud1{
+    background-color:white;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 700px;
+    top: 150px;
+    border-radius:15px;
+    animation-name: cloud9;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+
+   
+}
+
+.cloud1 a{
+    visibility: hidden;
+}
+
+@keyframes cloud9{
+    from{
+        left: 800px;
+        top: 150px;
+    } 
+    to{
+      left: 0px;
+      top: 50px;
+    } 
+
+  }
+
+.cloud1:hover{
+    
+    
+    transform:scale(1.5);
+
+}
+
+.cloud:hover{
+    
+    transform:scale(1.5);
+}
+
+a:hover{
+    
+    
+  
+
+    visibility: visible;
+    
+}
+
+
+
+
+.mountain{
+    width: 0px;
+	height: 0px;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 150px solid #555;
+    position: relative;
+    left:350px;
+    top:150px;
+    
+}
+
+.trees{
+
+    width: 0px;
+	height: 0px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid darkgreen;
+
+    position:relative;
+    left: 400px;
+    top:100px;
+}
+
+
+.trees1{
+
+    width: 0px;
+	height: 0px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid green;
+
+    position:relative;
+    left: 600px;
+    top:0px;
+}
+
+
+.trees2{
+
+    width: 0px;
+	height: 0px;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid rgb(0, 82, 0);
+
+    position:relative;
+    left: 200px;
+    top:50px;
+}

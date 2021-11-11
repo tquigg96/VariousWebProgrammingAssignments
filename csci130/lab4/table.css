@@ -1,0 +1,16 @@
+#basketball td:hover{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    transition: width ease-in 0.2s;
+    transition: height ease-in 0.2s;
+}
+
+
+#basketball tr:hover{
+    background-color: green;
+}
+
+#basketball tr{
+    text-transform: capitalize;
+}

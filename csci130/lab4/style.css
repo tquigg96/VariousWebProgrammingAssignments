@@ -1,0 +1,58 @@
+body{
+    background-color:hsl(208, 100%, 28%);
+}
+
+
+
+
+/* header */
+#container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#bullets{
+    background-color: white;
+    padding-right: 60px;
+    margin: 5px;
+    margin-left: 20px;
+}
+ul{
+    list-style-image: url('paw.png');
+}
+
+
+
+
+header{
+    background-color: #c51230;
+}
+
+/* table 1 */
+
+.cell1 {
+    border: 1px solid black;
+
+}
+
+#Money{
+    background-color: white;
+    
+}
+
+
+/* sections */
+
+.title{
+    text-align: center;
+    color: #004b8e;
+}
+
+.section1{
+    background-color: white;
+    margin: 6px;
+}
+
+
+
